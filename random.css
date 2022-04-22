@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(251, 240, 242);
+
+  }
+  
+  .main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .main2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .item.first {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29, 17, 17);
+    font-family: "Ubuntu";
+    background-color: rgb(246, 174, 169);
+    border-end-end-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 5px 10px;
+    box-shadow: 5px 10px #f8b9b9;
+
+  }
+  
+  .item.second {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu";
+    background-color: rgb(229, 185, 156);
+    border-end-end-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 5px 10px;
+    box-shadow: 5px 10px rgb(238, 208, 188);
+
+  }
+  
+  .item.third {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 31, 31);
+    font-family: "Ubuntu";
+    background-color: rgb(233, 206, 247);
+    border-end-end-radius: 50%;
+    border-top-left-radius: 50%;
+    box-shadow: 5px 10px;
+    box-shadow: 5px 10px rgb(236, 216, 246);
+
+
+  }
+  
+  .item.fourth {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 31, 31);
+    height: 100px;
+    cursor: pointer;
+    background: rgb(241, 241, 204);   
+    box-shadow: 5px 10px;
+    box-shadow: 5px 10px rgb(237, 237, 213);
+ 
+
+    color: black;
+    border-radius: 50%;
+}
+  
+  .item.fourth::selection {
+    background: transparent;
+  }
